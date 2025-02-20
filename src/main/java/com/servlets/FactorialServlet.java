@@ -16,7 +16,7 @@ public class FactorialServlet extends HttpServlet {
 		
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		//Get number from the request
+		//Get number from the request added
 		int number = Integer.parseInt(request.getParameter("number"));
 		
 	
